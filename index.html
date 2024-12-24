@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotion de Noël - Salon de Beauté</title>
+    <style>
+         body {
+            margin: 0;
+            padding: 0;
+            background-image: url(alcane.jpg); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+            background-size: cover; /* L'image couvre tout l'arrière-plan */
+            background-repeat: no-repeat; /* Pas de répétition de l'image */
+            background-position: center; /* Centrer l'image */
+        }
+
+        header {
+            background-color: #d4a5a5;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .promo-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .forfait {
+            border-left: 4px solid #d4a5a5;
+            padding-left: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .price {
+            font-size: 1.5rem;
+            color: #b76e79;
+            font-weight: bold;
+        }
+        
+        .services {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .services li {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .services li::before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+        }
+        
+        .contact {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #f0e6e8;
+            border-radius: 5px;
+        }
+        
+        .period {
+            background-color: #b76e79;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>✨ Promotion de Noël ✨</h1>
+        <div class="period">Du 25 Décembre au 10 Janvier 2025</div>
+    </header>
+    
+    <div class="container">
+        <div class="promo-card">
+            <h2>Forfait Homme</h2>
+            <div class="price">10,000fcfa</div>
+            <ul class="services">
+                <li>Manucure + pédicure classique</li>
+                <li>Coiffure</li>
+                <li>Gommage pour éclat visage</li>
+            </ul>
+        </div>
+        
+        <div class="promo-card">
+            <h2>Forfait Femme</h2>
+            <div class="price">23,000fcfa</div>
+            <ul class="services">
+                <li>Manucure vernis gel + déco</li>
+                <li>Pédicure vernis gel</li>
+                <li>Mak up coup d'éclat</li>
+                <li>Coiffure tresses avec 2 paquets de mèches</li>
+            </ul>
+        </div>
+        
+        <div class="contact">
+            <h3>Réservez dès maintenant !</h3>
+            <p>Contactez-nous au : 074-32-01-72</p>
+        </div>
+    </div>
+</body>
+</html>
